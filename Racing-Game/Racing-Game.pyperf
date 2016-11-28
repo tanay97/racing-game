@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<ProfilingTarget xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ProjectTarget>
+    <TargetProject>d1e5263e-695d-42bb-8f10-1b81c10f2fd7</TargetProject>
+    <FriendlyName>Racing-Game</FriendlyName>
+  </ProjectTarget>
+</ProfilingTarget>

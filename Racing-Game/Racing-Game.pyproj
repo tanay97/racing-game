@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{d1e5263e-695d-42bb-8f10-1b81c10f2fd7}</ProjectGuid>
+    <ProjectHome />
+    <StartupFile>racing-game-fixed.py</StartupFile>
+    <SearchPath />
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <ProjectTypeGuids>{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <InterpreterId>{2af0f10d-7135-4994-9156-5d01c9c11b7e}</InterpreterId>
+    <InterpreterVersion>3.2</InterpreterVersion>
+    <IsWindowsApplication>False</IsWindowsApplication>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition=" '$(VisualStudioVersion)' == '' ">10.0</VisualStudioVersion>
+    <PtvsTargetsFile>$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets</PtvsTargetsFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Constants.py" />
+    <Compile Include="racing-game-fixed.py" />
+    <Compile Include="racing-game.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="data\ai-1.png" />
+    <Content Include="data\ai-2.png" />
+    <Content Include="data\ai-3.png" />
+    <Content Include="data\ai-car-0.png" />
+    <Content Include="data\ai-car-1.png" />
+    <Content Include="data\background1.png" />
+    <Content Include="data\background2.png" />
+    <Content Include="data\background3.png" />
+    <Content Include="data\car-0.png" />
+    <Content Include="data\car-1.png" />
+    <Content Include="data\explode-alpha\explode-alpha-0.png" />
+    <Content Include="data\explode-alpha\explode-alpha-1.png" />
+    <Content Include="data\explode-alpha\explode-alpha-10.png" />
+    <Content Include="data\explode-alpha\explode-alpha-11.png" />
+    <Content Include="data\explode-alpha\explode-alpha-12.png" />
+    <Content Include="data\explode-alpha\explode-alpha-13.png" />
+    <Content Include="data\explode-alpha\explode-alpha-14.png" />
+    <Content Include="data\explode-alpha\explode-alpha-15.png" />
+    <Content Include="data\explode-alpha\explode-alpha-16.png" />
+    <Content Include="data\explode-alpha\explode-alpha-17.png" />
+    <Content Include="data\explode-alpha\explode-alpha-18.png" />
+    <Content Include="data\explode-alpha\explode-alpha-19.png" />
+    <Content Include="data\explode-alpha\explode-alpha-2.png" />
+    <Content Include="data\explode-alpha\explode-alpha-20.png" />
+    <Content Include="data\explode-alpha\explode-alpha-21.png" />
+    <Content Include="data\explode-alpha\explode-alpha-22.png" />
+    <Content Include="data\explode-alpha\explode-alpha-23.png" />
+    <Content Include="data\explode-alpha\explode-alpha-24.png" />
+    <Content Include="data\explode-alpha\explode-alpha-25.png" />
+    <Content Include="data\explode-alpha\explode-alpha-26.png" />
+    <Content Include="data\explode-alpha\explode-alpha-27.png" />
+    <Content Include="data\explode-alpha\explode-alpha-28.png" />
+    <Content Include="data\explode-alpha\explode-alpha-29.png" />
+    <Content Include="data\explode-alpha\explode-alpha-3.png" />
+    <Content Include="data\explode-alpha\explode-alpha-4.png" />
+    <Content Include="data\explode-alpha\explode-alpha-5.png" />
+    <Content Include="data\explode-alpha\explode-alpha-6.png" />
+    <Content Include="data\explode-alpha\explode-alpha-7.png" />
+    <Content Include="data\explode-alpha\explode-alpha-8.png" />
+    <Content Include="data\explode-alpha\explode-alpha-9.png" />
+    <Content Include="data\player-car.png" />
+    <Content Include="data\player.png" />
+    <Content Include="data\Topdown_vehicle_sprites_pack\._Ambulance.png" />
+    <Content Include="data\Topdown_vehicle_sprites_pack\._Audi.png" />
+    <Content Include="data\Topdown_vehicle_sprites_pack\._Black_viper.png" />
+    <Content Include="data\Topdown_vehicle_sprites_pack\._Car.png" />
+    <Content Include="data\Topdown_vehicle_sprites_pack\._Mini_truck.png" />
+    <Content Include="data\Topdown_vehicle_sprites_pack\._Mini_van.png" />
+    <Content Include="data\Topdown_vehicle_sprites_pack\._Police.png" />
+    <Content Include="data\Topdown_vehicle_sprites_pack\._preview_carspritespack.jpg" />
+    <Content Include="data\Topdown_vehicle_sprites_pack\._taxi.png" />
+    <Content Include="data\Topdown_vehicle_sprites_pack\._truck.png" />
+    <Content Include="data\Topdown_vehicle_sprites_pack\Ambulance.png" />
+    <Content Include="data\Topdown_vehicle_sprites_pack\ambulance_animation\._2.png" />
+    <Content Include="data\Topdown_vehicle_sprites_pack\ambulance_animation\._3.png" />
+    <Content Include="data\Topdown_vehicle_sprites_pack\ambulance_animation\1.png" />
+    <Content Include="data\Topdown_vehicle_sprites_pack\ambulance_animation\2.png" />
+    <Content Include="data\Topdown_vehicle_sprites_pack\ambulance_animation\3.png" />
+    <Content Include="data\Topdown_vehicle_sprites_pack\Audi.png" />
+    <Content Include="data\Topdown_vehicle_sprites_pack\Black_viper.png" />
+    <Content Include="data\Topdown_vehicle_sprites_pack\Car.png" />
+    <Content Include="data\Topdown_vehicle_sprites_pack\Mini_truck.png" />
+    <Content Include="data\Topdown_vehicle_sprites_pack\Mini_van.png" />
+    <Content Include="data\Topdown_vehicle_sprites_pack\Police.png" />
+    <Content Include="data\Topdown_vehicle_sprites_pack\Police_animation\._1.png" />
+    <Content Include="data\Topdown_vehicle_sprites_pack\Police_animation\._2.png" />
+    <Content Include="data\Topdown_vehicle_sprites_pack\Police_animation\._3.png" />
+    <Content Include="data\Topdown_vehicle_sprites_pack\Police_animation\1.png" />
+    <Content Include="data\Topdown_vehicle_sprites_pack\Police_animation\2.png" />
+    <Content Include="data\Topdown_vehicle_sprites_pack\Police_animation\3.png" />
+    <Content Include="data\Topdown_vehicle_sprites_pack\preview_carspritespack.jpg" />
+    <Content Include="data\Topdown_vehicle_sprites_pack\Read Me.txt" />
+    <Content Include="data\Topdown_vehicle_sprites_pack\taxi.png" />
+    <Content Include="data\Topdown_vehicle_sprites_pack\truck.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="data" />
+    <Folder Include="data\explode-alpha" />
+    <Folder Include="data\Topdown_vehicle_sprites_pack" />
+    <Folder Include="data\Topdown_vehicle_sprites_pack\ambulance_animation" />
+    <Folder Include="data\Topdown_vehicle_sprites_pack\Police_animation" />
+  </ItemGroup>
+  <ItemGroup>
+    <InterpreterReference Include="{2af0f10d-7135-4994-9156-5d01c9c11b7e}\3.2" />
+  </ItemGroup>
+  <Import Project="$(PtvsTargetsFile)" Condition="Exists($(PtvsTargetsFile))" />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" Condition="!Exists($(PtvsTargetsFile))" />
+</Project>
